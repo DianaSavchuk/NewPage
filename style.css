@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Hurricane&family=Merriweather&family=Raleway:wght@100;300&family=Roboto:wght@100&family=Source+Sans+Pro:wght@200&display=swap");
+
+body {
+  margin: 0;
+  height: 100%;
+  background-color: #D59EFF;
+  font-family: "Merriweather", serif;
+}
+.img{
+  text-align: center;
+}
+.video{
+  text-align: center;
+}
+header {
+  background-image: url("https://assets-global.website-files.com/5e39e095596498a8b9624af1/5ffca6e3e0d8ad9231cc2af6_Portfolio-course---final.png");
+  background-size: cover;
+  background-position: center center;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
+  position: relative;
+}
+header::after {
+  content: "";
+  background-color: #000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.8;
+}
+header * {
+  z-index: 1;
+}
+nav {
+  background-color: #2274A5;
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+}
+nav a {
+  color: #fff;
+  margin-left: 20px;
+  text-decoration: none;
+}
+nav a:hover {
+  border-bottom: 1px solid #fff;
+}
+section {
+  text-align: center;
+  list-style-type: none;
+}
+footer {
+  background-color: #57009A;
+  color: #fff;
+  text-align: center;
+}
+.networks {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+.networks a {
+  color: #000F9A;
+  font-size: 40px;
+  margin: 0 20px;
+}
+/* don't edit this */
+.jest-lite-report__status--pass {
+  background: var(--color-pass);
+}
+.jest-lite-report__errors {
+  display: none;
+}
