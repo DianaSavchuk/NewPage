@@ -13,8 +13,6 @@ h2{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 34%;
-  height: 75%;
   border-radius: 15px;
   width: 500px;
   height: 700px;
@@ -24,40 +22,123 @@ h2{
   margin-left: auto;
   margin-right: auto;
   width: 34%;
-  height: 30%;
+  height: 300px;
   border-radius: 10px;
 }
 #description{
   border-style:outset;
   background-color: #e0b8ff;
   border-radius: 35px;
-  margin-left: 45px;
-  margin-right: 45px;
-  padding-left: 20px;
-  padding-right: 20px;
+  margin-left: 55px;
+  margin-right: 55px;
+  padding-left: 30px;
+  padding-right: 30px;
   text-align: justify;
   line-height: 2;
 }
-#mySong{
+#description1{
   border-style: outset;
   background-color: #e0b8ff;
   border-radius: 15px;
   margin: auto;
+  margin-bottom: 30px;
   padding-left: 20px;
   padding-right: 20px;
   line-height: 2;
   width: 50%;
   text-align: center;
 }
-#previous{
- border-radius: 12px;
- text-align: center;
- margin-left: auto;
- margin-right: auto;
+#description2{
+  border-style: outset;
+  background-color: #e0b8ff;
+  border-radius: 15px;
+  margin: auto;
+  margin-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  line-height: 2;
+  width: 32%;
+  text-align: center;
 }
+#comment{
+
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+#commentarea{
+  margin-top: 10px;
+  border-radius: 10px;  
+  background-color: #e9d3ff;;
+}
+
+#com{
+  text-align: center;
+  border-style:dashed;
+  border-color: #f6ebff;
+  border-radius: 10px;
+  background-color: #f6ebff;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+.add{
+margin-top: 15px;
+margin-left: 750px;
+} 
+
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+ } 
 #next{
-border-radius: 12px;
-text-align: center;
+  width: 100px;
+  height: 40px;
+  border: #57009A; 
+  background-color:#9b42cf;
+  border-style: double;
+  border-radius: 20px;
+  margin-left: 300px;
+  font-family: "Merriweather", serif;
+}
+#next:hover, #previous:hover {
+  background-color: #57009A;
+}
+#previous{
+  width: 100px;
+  height: 40px;
+  border: #57009A; 
+  background-color:#9b42cf; 
+  border-radius: 20px;
+  border-style: double;
+  font-family: "Merriweather", serif;
+}
+#add_comment{
+  width: 150px;
+  height: 40px;
+  border: #57009A; 
+  background-color:#9b42cf;
+  border-style: double;
+  border-radius: 20px;
+  font-family: "Merriweather", serif;
+}
+#add_comment:hover{
+  background-color:#57009A;
+}
+#download{
+  width: 200px;
+  height: 60px;
+  background-color:#e0b8ff; 
+  border-radius: 30px;
+  border-style: double;
+  font-family: "Merriweather", serif;
+  font-size:large;
+}
+#download:hover{
+  background-color: #9b42cf;
 }
 header {
   background-image: url("https://assets-global.website-files.com/5e39e095596498a8b9624af1/5ffca6e3e0d8ad9231cc2af6_Portfolio-course---final.png");
